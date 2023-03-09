@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+body{
+    overflow-y: hidden;
+    text-align: center;
+}
+body,h1,p{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width:100%;
+    height: auto;
+}
+.naw p,::placeholder,button ,.main-intro-h1,.main-footer-h1{
+    font-family: 'Raleway',sans-serif;
+}
+.intro-h1,.intro-p,.main-intro-p1,.main-intro-p2,.see-how,.avatar-p,.avatar-name,.avatar-about,.main-footer-p,.phone-number,.mail,.footer-naw1 p,.footer-naw2 p{
+    font-family: 'Open Sans',sans-serif;
+}
+label{
+    display: none;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.naw {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 167px;
+    margin-right: 24px;
+}
