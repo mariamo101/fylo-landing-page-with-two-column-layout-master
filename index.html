@@ -8,8 +8,6 @@
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 </head>
 <body>
-  <div class="main-container">
-
     <header>
       <div class="head">
       <img  class="header-logo"src="./images/logo_parp.svg"/>
@@ -20,11 +18,12 @@
         <p class="Sign In"> Sign In </p>
       </section>
 </div>
-      <main class="head-main">
+</header>
+      <div class="head-main">
         <section class="image-ilustration1">
           <img src="./images/illustration-1.svg"/>
         </section>
-
+             <div class="intro">
         <section class="intro-text">
           <h1 class="intro-h1">  All your files in one secure location, accessible anywhere. </h1>
           <p class="intro-p"> Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers. </p>
@@ -48,20 +47,20 @@
             Get Started
           </button>
         </section>
-      </main>
-    </header>
+      </div>
+    </div>
 
     <main class="main">
-      <section class="image-set">
+     
         <img class="mobile" src="./images/bg-curve-mobile.svg"/>
         <img class="desktop" src="./images/bg-curve-desktop.svg"/>
-      </section>
+      
 
      <div class="background-color">
       <section class="image-ilustration2">
         <img src="./images/illustration-2.svg"/>
       </section>
-
+      <div class="intro-avatar">
       <section class="main-intro-text">
         <h1 class="main-intro-h1"> Stay productive, wherever you are </h1>
         <P class="main-intro-p1"> Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs. </P>
@@ -85,31 +84,33 @@
         </section>
         </div>
       </section>
-    
-      <section class="main-footer">
-        <h1 class="main-footer-h1"> Get early access today </h1>
-        <p class="main-footer-p"> It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you. </p>
-        
-        <div class="mail-adress">
-          <section class="space-to-write">
-            <input class="white-border2"
-                type="mail"
-                id="your-mail"
-                name="enter-mail"
-                placeholder=" email@example.com "
-              />
-          </section>
-          <section class="checker">
-            <label id="check" for="enter-mail"> Please check your email</label>
-          </section>
-          <button class="button2" onclick="ValidateEmail2(document.getElementById('your-mail'))">
-            Get Started For Free
-          </button>
-        </div>
-        
-      </section>
+    </div>
     </div>
     </main>
+    <section class="main-footer">
+      <div class="main-footer-text">
+      <h1 class="main-footer-h1"> Get early access today </h1>
+      <p class="main-footer-p"> It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you. </p>
+    </div>
+    <div class="main-footer-button">
+      <div class="mail-adress">
+        <section class="space-to-write">
+          <input class="white-border2"
+              type="mail"
+              id="your-mail"
+              name="enter-mail"
+              placeholder=" email@example.com "
+            />
+        </section>
+        <section class="checker">
+          <label id="check" for="enter-mail"> Please check your email</label>
+        </section>
+        <button class="button2" onclick="ValidateEmail2(document.getElementById('your-mail'))">
+          Get Started For Free
+        </button>
+      </div>
+    </div>
+    </section>
     
     <footer class="footer">
 
@@ -124,7 +125,7 @@
         <p class="mail" > example@fylo.com </p>
       </section>
     </div>
-
+<div class="naw-icons"></div>
     <div class="footer-naw1">
       <p> About Us </p>
       <p>Jobs</p>
@@ -144,10 +145,11 @@
       <img class="twiter" src="./images/Group 16.svg"/>
       <img class="instagram" src="./images/Group 15.svg"/>
     </div>
+  </div>
 
     </footer>
 
 
-  </div>
+ 
 </body>
 </html>
