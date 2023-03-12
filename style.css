@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
-body{
-    overflow-y: hidden;
-    text-align: center;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 body,h1,p{
     margin: 0;
     padding: 0;
@@ -12,11 +9,17 @@ img{
     max-width:100%;
     height: auto;
 }
+.desktop{
+    display:none;
+}
 .naw p,::placeholder,button ,.main-intro-h1,.main-footer-h1{
     font-family: 'Raleway',sans-serif;
 }
 .intro-h1,.intro-p,.main-intro-p1,.main-intro-p2,.see-how,.avatar-p,.avatar-name,.avatar-about,.main-footer-p,.phone-number,.mail,.footer-naw1 p,.footer-naw2 p{
     font-family: 'Open Sans',sans-serif;
+}
+.intro-h1 ,.intro-p,.main-intro-h1 ,.avatar-p,.avatar-name,.avatar-about{
+    color: #07043B;
 }
 label{
     display: none;
@@ -24,13 +27,177 @@ label{
 .head{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin:1.5rem auto 6.438rem auto;
+    
+}
+.header-logo{
+    width: 5rem;
+    align-self: center;
 }
 .naw {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 167px;
-    margin-right: 24px;
+    max-width: 10.438rem;
+}
+.naw p{
+    width: 3.063rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 0.875rem;
+    text-align: left;
+    margin: 0.4rem;  
+}
+.image-ilustration1{
+    width: 19rem;
+    margin: auto;
+}
+.intro-h1{
+    width: 20rem;
+    margin: 2.5rem auto 1.5rem auto;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+    text-align: center;
+    
+}
+.intro-p{
+    width: 18.5rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.313rem;
+    text-align: center;
+    margin: 0 auto 2rem auto;
+    
+}
+.head-main-footer{
+    text-align: center;
+}
+input{
+    border-radius: 0.195rem;
+    box-shadow: 0.125rem 0.188rem 0.375rem 0rem #00000029;
+    border: 0.039rem solid #07043B;
+    margin: 0 auto 1rem auto;
+    width: 19rem;
+    height: 2.5rem;
+}
+button{
+    border: none;
+    background: #2F65F8;
+    box-shadow: 0.125rem 0.188rem 0.375rem 0rem #00000029;
+    border-radius: 0.195rem;
+    margin: 0 auto 5.625rem auto;
+    width: 19rem;
+    height: 2.5rem;
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1rem;
+}
+.mobile{
+   width: 100%;
+}
+.background-color{
+    background-color: #F8F8FE;
+}
+.image-ilustration2{
+      width: 20rem;
+      margin: -0.25rem auto 5.438rem auto;
+}
+.main-intro-h1{
+    margin: 0 auto 1.5rem auto;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    text-align: center;
+    
+}
+.main-intro-text p{
+    width: 20rem;
+    color: #615F7E;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.313rem;
+    text-align: center;
+    margin: 0 auto 1rem auto;
+}
+.how-to-work{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 1.25rem auto 0.375rem auto;
+    width: 8.125rem;
+}
+.see-how{
+    color: #3DA08F;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1rem;
+    text-align: center;
+    width:6.875rem ;
+}
+hr{
+    background-color: #3DA08F;
+    width: 8.125rem;
+
+}
+.avatar-container{
+    box-shadow: 0rem 0rem 0.5rem 0.25rem #3838380C;
+    background-color: white;
+    width: 17.5rem;
+    height:10.563rem;
+    border-radius: 0.25rem;
+    margin: 2.5rem auto 5.125rem auto;
+    
+}
+.quotes-icon{
+    text-align: left;
+    margin: 1.8rem auto auto 1.3rem;
+    
+}
+.avatar{
+   display: flex;
+   justify-content: flex-start;
+   margin: auto;
+}
+.avatar-p{
+    margin: 0 auto 0.75rem auto;
+    width:15.063rem ;
+    font-size: 0.625rem;
+    font-weight: 400;
+    line-height: 1.125rem;
+    letter-spacing: 0.38461539149284363px;
+}
+.avatar-image{
+    margin:0 0.5rem 0 1.3rem ;
+    width: 1.5rem;
+    border-radius: 3.125rem;  
+}
+.avatar-name{
+    font-size: 0.563rem;
+    font-weight: 700;
+    line-height: 0.75rem;
+    letter-spacing: 0.44999998807907104px;
+}
+.avatar-about{
+    font-size: 0.375rem;
+    font-weight: 400;
+    line-height: 0.75rem;
+    letter-spacing: 0.30000001192092896px;
+}
+.main-footer{
+    width: 100%;
+    height: 21.563rem;
+    background: #575988;
+    text-align: center;
+}
+
+
+
+.footer{
+    background: #07043B;
+    width: 100%;
+    height: 36.875rem;
 }
