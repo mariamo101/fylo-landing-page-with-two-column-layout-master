@@ -12,31 +12,31 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
-
-
 
 
 ## Overview
 
+
 ### The challenge
+my challenge is to build out this landing page and get it looking as close to the design as possible.
 
-Users should be able to:
-
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<img width="293" alt="Screenshot 2023-03-14 at 20 27 36" src="https://user-images.githubusercontent.com/117212859/225115947-c05d0337-b8df-421f-8f78-53bf6a85c602.png">
+
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL:(https://www.figma.com/file/Wwx6Vxs5539DW0xpB8mOZ2/fylo-landing-page-with-two-column-layout?node-id=0%3A1&t=63H9IwHa7Mp9wBzT-0)
+- Live Site URL:(https://charming-jalebi-a4ab56.netlify.app/)
 
 ## My process
+
+## Gif
+<img src="https://media.giphy.com/media/LJI41n7mJlM9c7KOzr/giphy.gif" />
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWE3MDdmNWU0OWMyZDBmZGIzMDcyM2YxZWFjYTczNTVkNzY5YmZiNiZjdD1n/y6cKU2KyOFs669ZSlx/giphy.gif"/>
 
 ### Built with
 
@@ -45,16 +45,10 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-
 
 ### What I learned
 
-
-To see how you can add code snippets, see below:
+snippets see below:
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
@@ -70,16 +64,9 @@ const proudOfThisFunc = () => {
 }
 ```
 
-
-
-### Continued development
-
-
-
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Mariami Makhniashvili](https://github.com/mariamo101)
+- Twitter - [@mariami101](https://www.twitter.com/@mariami101)
 
 

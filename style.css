@@ -313,7 +313,7 @@ hr{
     color: #71DFCC;
 
 }
-@media screen and (min-width: 56.25rem) {
+@media screen and (min-width: 43.75rem) {
     .head{
         min-width: 81.25rem;
         align-items: center;
