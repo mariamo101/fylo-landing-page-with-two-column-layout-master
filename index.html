@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="stylesheet" href="./style.css"/>
-  <link rel="stylesheet" href="./javaScript.js"/>
+  <link rel="stylesheet" href="./styles.css"/>
+  <script src="index.js" defer></script>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"/>
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 </head>
@@ -30,22 +30,19 @@
           <p class="intro-p"> Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers. </p>
         </section>
 
+        <form novalidate>
         <section class="head-main-footer">
-          <div class="mail-adress">
-            <section class="space-to-write">
-              <input class="white-border1"
-                type="email"
-                id="mail"
-                name="mail"
-                placeholder=" Enter your email... "
-                />
-            </section>
-          </div>
-          <button class="button1"> Get Started </button>
+            <p>
+          <label for="mail">
+            <input type="email" id="mail" name="mail" placeholder="Enter your email… "  required minlength="8" />
+            <span class="error" ></span>
+          </label>
+      </p>
+      <button class="button1"> Get Started </button>
         </section>
+      </form>
       </div>
     </div>
-
     <main class="main">
      
         <img class="mobile" src="./images/bg-curve-mobile.svg"/>
@@ -88,24 +85,19 @@
       <h1 class="main-footer-h1"> Get early access today </h1>
       <p class="main-footer-p"> It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you. </p>
     </div>
+ 
+
+  <form novalidate>
     <div class="main-footer-button">
-      <div class="mail-adress">
-        <section class="space-to-write">
-          <input class="white-border2"
-              type="mail"
-              id="your-mail"
-              name="enter-mail"
-              placeholder=" email@example.com "
-            />
-        </section>
-        <section class="checker">
-          <label id="check" for="enter-mail"> Please check your email</label>
-        </section>
-        <button class="button2" onclick="ValidateEmail2(document.getElementById('your-mail'))">
-          Get Started For Free
-        </button>
-      </div>
+            <p>
+          <label for="mail">
+            <input type="email2" id="mail" name="mail" placeholder="email@example.com "  required minlength="8" />
+            <span class="error" ></span>
+          </label>
+      </p>
+      <button class="button2" > Get Started For Free </button>
     </div>
+     </form>
     </section>
     
     <footer class="footer">
