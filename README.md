@@ -29,10 +29,8 @@ my challenge is to build out this landing page and get it looking as close to th
 
 ### Links
 
-- Solution URL:(https://www.figma.com/file/Wwx6Vxs5539DW0xpB8mOZ2/fylo-landing-page-with-two-column-layout?node-id=0%3A1&t=63H9IwHa7Mp9wBzT-0)
-- Live Site URL:(https://charming-jalebi-a4ab56.netlify.app/)
-
-## My process
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5)
+- Live Site URL: [Add live site URL here](https://fylo-landing-page-mm.netlify.app/)
 
 ## Gif
 <img src="https://media.giphy.com/media/LJI41n7mJlM9c7KOzr/giphy.gif" />
